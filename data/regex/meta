@@ -1,4 +1,4 @@
-# Title: borthick/pihole-regex-wildcard-blocking/data/regex/facebook
+# Title: borthick/pihole-regex-wildcard-blocking/data/regex/meta
 #
 # This file will contains regular expressions to block connections to Meta (Facebook, Instagram, etc). It was made with Pi-hole in mind.
 # I'm just getting started, never used Github for my own thing before, and need to verify and research additional domains to add.
