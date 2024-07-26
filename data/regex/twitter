@@ -1,0 +1,11 @@
+# Title: borthick/pihole-regex-wildcard-blocking/data/regex/twitter
+#
+# This file will contains regular expressions to block connections to Musk Social (aka Twitter). It was made with Pi-hole in mind.
+# I'm just getting started, never used Github for my own thing before, and need to verify and research additional domains to add.
+
+#=====================================
+
+# ===== Musk Social wildcard subdomains
+^https?://([a-zA-Z0-9-]+\.)*twitter\.[a-zA-Z]{2,}(/|$)
+^https?://([a-zA-Z0-9-]+\.)*twttr\.[a-zA-Z]{2,}(/|$)
+^https?://([a-zA-Z0-9-]+\.)*twimg\.[a-zA-Z]{2,}(/|$)
