@@ -1,0 +1,31 @@
+# Title: borthick/pihole-regex-wildcard-blocking/data/regex/facebook
+#
+# This file will contains regular expressions to block connections to Meta (Facebook, Instagram, etc). It was made with Pi-hole in mind.
+# I'm just getting started, never used Github for my own thing before, and need to verify and research additional domains to add.
+
+#=====================================
+
+# ===== BookFace wildcard subdomains
+^https?://([a-zA-Z0-9-]+\.)*facebook\.[a-zA-Z]{2,}(/|$)
+^https?://([a-zA-Z0-9-]+\.)*fbcdn\.[a-zA-Z]{2,}(/|$)
+
+# ===== BookFace assets
+^https?://fbcdn-[a-zA-Z]+(?:-[a-z])?(?:-[a-z])?\.akamaihd\.net(/|$)
+fbexternal-[a-z]\.akamaihd\.net
+fbstatic-[a-z]\.akamaihd\.net
+
+#=====================================
+
+# ===== Instagram wildcard subdomains
+^https?://([a-zA-Z0-9-]+\.)*instagram\.[a-zA-Z]{2,}(/|$)
+
+#=====================================
+
+# ===== Threads wildcard subdomains
+(\.|^)threads\.net$
+
+#=====================================
+
+# ===== WhatsApp wildcard subdomains
+^https?://([a-zA-Z0-9-]+\.)*whatsapp\.[a-zA-Z]{2,}(/|$)
+(\.|^)wa\.me$
