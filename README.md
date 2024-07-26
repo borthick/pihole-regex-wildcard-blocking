@@ -1,2 +1,3 @@
-# pihole-regex-domain-blocking
-Quick personal blocking reference
+# pihole-regex-wildcard-blocking
+
+Quick personal blocking reference.
